@@ -1,0 +1,103 @@
+/* SECTION HEADER */
+.header {
+  display: flex;
+  background-color: var(--nav-color);
+  justify-content: space-between;
+  align-items: center;
+  height: 4.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 3.2rem;
+}
+.main-nav-list {
+  list-style: none;
+  align-items: center;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.nav-cta.main-nav-link {
+  letter-spacing: 0.1rem;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #e7e7e7;
+}
+
+.nav-cta.main-nav-link:link,
+.nav-cta.main-nav-link:visited {
+  padding: 0.7rem 2rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: var(--cta-background);
+}
+
+.nav-cta.main-nav-link:hover,
+.nav-cta.main-nav-link:active {
+  background-color: #ce7c34;
+}
+/* HERO-SECTION */
+.section-hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+  display: grid;
+  align-items: center;
+  gap: 10rem;
+  padding: 4.8rem;
+  background-image: url(/Assest/background/image\ 103.svg);
+}
+.hero-text-box strong {
+  color: var(--cta-background);
+}
+.hero-text-box p {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+  color: #fff;
+}
+
+.cta-hero {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.one {
+  border: 1px solid #fff;
+}
+.two {
+  padding: 0.7rem 2rem;
+  border-radius: 9px;
+  border: 1px solid #fff;
+}
+.hero-info {
+  display: flex;
+  gap: 4rem;
+  margin-top: 5rem;
+  padding: 1rem 2rem;
+  background-color: #4b4a4a2a;
+  border-radius: 9px;
+  color: #fff;
+}
+.hero-info p {
+  margin: 0;
+
+  font-size: 1.2rem;
+}
+.hero-info h2 {
+  color: #fff;
+}
