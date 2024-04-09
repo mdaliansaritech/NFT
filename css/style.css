@@ -101,3 +101,21 @@
 .hero-info h2 {
   color: #fff;
 }
+/* SECTION ABOUT */
+.section-about {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+  display: grid;
+  align-items: center;
+
+  padding: 4.8rem;
+  background-color: var(--abt-us-background);
+}
+
+.abt-img-box img {
+  height: 13rem;
+  background-color: #2b2b2bad;
+  border: 9px;
+  gap: 2rem;
+}
